@@ -1,6 +1,6 @@
 export default function Profile() {
   return (
-    <div style={{ textAlign: "center", marginTop: "40px" }}>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
       <img
         src="yourphoto.jpg"
         alt="Minha foto"
