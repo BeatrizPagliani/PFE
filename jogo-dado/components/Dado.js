@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 export default function Dado({ valor }) {
   return (
-    <img
+    <Image
       src={`/dados/dado${valor}.png`}
-      alt="dado"
+      alt={`Dado ${valor}`}
       width={70}
+      height={70}
     />
   );
 }
