@@ -3,7 +3,7 @@ export default function Dado({ valor }) {
     <img
       src={`/dados/dado${valor}.png`}
       alt="dado"
-      width={80}
+      width={70}
     />
   );
 }
